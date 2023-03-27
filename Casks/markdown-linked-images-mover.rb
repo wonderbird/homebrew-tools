@@ -1,7 +1,7 @@
 cask "markdown-linked-images-mover" do
   version "0.1.1-alpha"
 
-  if arch == ":intel" then
+  if arch == ":intel"
     sha256 "6a117958dda1ecb5337852e84643bac1269b7358eff46c383bfd30f2340bdedc"
     url "https://github.com/wonderbird/markdown-linked-images-mover/releases/download/v#{version}/markdown-linked-images-mover.x64.bottle.zip"
   else

@@ -1,11 +1,11 @@
 cask "markdown-linked-images-mover" do
-  version "0.1.1-alpha"
+  version "0.1.2-alpha"
 
   if arch == ":arm64"
-    sha256 "b98cdfb7932d3d2f6be7ae1dbe91a0a845c52e88ce89a213d7ad78cabbc5f257"
+    sha256 "fcdc70818944f0960c32d032c1e6e2688b395ea313bfaa04b1dccb1c47ecb97a"
     url "https://github.com/wonderbird/markdown-linked-images-mover/releases/download/v#{version}/markdown-linked-images-mover.arm64.bottle.zip"
   else
-    sha256 "6a117958dda1ecb5337852e84643bac1269b7358eff46c383bfd30f2340bdedc"
+    sha256 "be74b02135a6340687f2b096dc70bb06655995a8592add7822a978438da5beee"
     url "https://github.com/wonderbird/markdown-linked-images-mover/releases/download/v#{version}/markdown-linked-images-mover.x64.bottle.zip"
   end
 

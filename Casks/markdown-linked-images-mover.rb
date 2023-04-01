@@ -1,10 +1,10 @@
 cask "markdown-linked-images-mover" do
   arch arm: "arm64", intel: "x64"
   
-  version "0.1.3-alpha"
+  version "0.1.4-alpha"
 
-  sha256 arm:   "1a9d8f941b371383e74e2859193696fa0e3100a2dd6cf0ffd925bf0792e371a8",
-         intel: "75613b56ce7d7637ab1732ba5ab642366bdc24b45e0d033ce2cc91f289eb1f39"
+  sha256 arm:   "2d97d5e713e88640ca45fd5e1e9ba4c20203071955dc139c775cf87eb280baf6",
+         intel: "530d14224e7d89ff5d041e55bfaeddca2de1211f16ae2b9019494a25a00c1d2d"
 
   url "https://github.com/wonderbird/markdown-linked-images-mover/releases/download/v#{version}/markdown-linked-images-mover.#{arch}.bottle.zip"
 

@@ -1,5 +1,6 @@
 cask "markdown-linked-images-mover" do
-  arch arm: "arm64", intel: "x64"
+  arch arm:   "osx.12-arm64",
+       intel: "osx.12-x64"
   
   version "0.1.4-alpha"
 

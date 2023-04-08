@@ -2,9 +2,9 @@ cask "malimo" do
   arch arm:   "osx.12-arm64",
        intel: "osx.12-x64"
 
-  version "0.1.5-alpha"
-  sha256 arm:   "a52f6637ba42f9e7330e5968f7cab9a55163d51e47f1663e375f9aa719e95c97",
-         intel: "5576a5982dd6c0945ae8d83ec7d542abbca43cfdc77f9eb3db890a3e0c1aa04b"
+  version "0.1.6-alpha"
+  sha256 arm:   "ca826036b1e262b1d7e4e0cc92d53aa4c6c76587c2b07a27aae6df6dc4db63e3",
+         intel: "b8e2dc8e3aaa3ae39b6b8950a3c1cab6c305f4d0d19c12979f4a566a6707d084"
 
   url "https://github.com/wonderbird/malimo/releases/download/v#{version}/malimo.#{arch}.bottle.zip"
   name "malimo"
